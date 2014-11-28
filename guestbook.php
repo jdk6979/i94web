@@ -86,6 +86,7 @@ include dirname(__FILE__).'/includes/common.inc.php';
     			</div>
     		</div>
     	</div>
+    	// 留言板功能在添加
     	<?php include ROOT_PATH.'/includes/footer.php'; ?>
     </body>
 </html>
