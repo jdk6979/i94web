@@ -1,0 +1,161 @@
+body
+{
+	font: 14px/21px Microsoft YaHei,Tahoma,Arial;
+	-webkit-text-size-adjust:none;   /*防止google调整字体大小*/
+	cursor: default;
+	color: #444444;
+	background-color: #E5E6E8;
+}
+#all
+{
+	width: 1349px;
+	height: auto;
+	border-top: 3px solid #999;
+}
+a:link
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: none;
+}
+#navdiv
+{
+	margin-top: 0px;
+}
+#navdiv ul
+{
+	list-style: none;
+	float: right;
+}
+#navdiv ul li
+{
+	float: left;
+	position: relative;
+	height: 24px;
+	line-height: 24px;
+	padding: 5px;
+}
+#navdiv a
+{
+	color: #777777;
+	font-weight: bold;
+}
+ul#about,ul#welcome
+{
+	position: absolute;
+	z-index: 99;
+	border:1px solid #ccc;
+	left: -25px;
+	top: 34px;
+	display:none;
+}
+ul#about li,ul#welcome li
+{
+	clear: both;
+	width: 72px;
+	text-align: center;
+	/*background-color: #909090;*/
+}
+ul#weibo
+{
+	position: absolute;
+	z-index: 999;
+	border:1px solid #ccc;
+	top: 0px;
+	left: 58px;
+	display: none;
+}
+.headerdiv
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.logodesc
+{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.logodesc a
+{
+	color: #444444;
+}
+.logodesc a:hover
+{
+	color: #FF5F00;
+}
+#header
+{
+	font-size: 25px;
+}
+/*分页*/
+.pagelist
+{
+	text-align: center;
+}
+/*悬浮*/
+.pagelist ul li a:hover
+{
+	background-color: #48AFE3;
+	color: #FFFFFF;
+}
+/*选中*/
+.pagelist ul li a.selectedpage
+{
+	background-color: #0088CC;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+/*登陆表单*/
+#loginForm
+{
+	background-color: #E5E6E8;
+	width: 450px;
+	height: 280px;
+}
+#loginForm h4
+{
+	margin-top: 0px;
+	padding: 10px;
+	border-bottom: 2px solid #CCCCCC;
+}
+.logincontrol
+{
+	margin-top: 30px;
+}
+.control-group
+{
+	margin-left: -40px;
+}
+.footer
+{
+	width: 1349px;
+	border-top: 1px solid #ccc; 
+	text-align: center;
+	line-height: 50px;
+	height: 50px;
+	position: relative;
+	top: 20px;
+}
+/*边栏的搜索*/
+#findParam
+{
+	height: 26px;
+	border: 0px;
+	width: 150px;
+}
+#btn
+{
+	height: 32px;
+	width: 58px;
+	font-size: 17px;
+	margin-left: -5px;
+	position: relative;
+	top: -5px;
+	left: 0px;
+	background-color: #5C9EFF;
+	font-family: "Microsoft Yahei";
+	border: 0px;
+}

@@ -1,0 +1,26 @@
+.guestbook
+{
+	position: relative;
+}
+#content
+{
+	margin-top: 20px;
+}
+#main
+{
+	margin-left: 0px;
+	height: auto;
+	border:1px solid red;
+}
+#sidebar
+{
+	height:600px;
+	margin-left: 15px;
+	border:1px solid orange;
+}
+#message
+{
+	background-color: #FFFFFF;
+	height: 600px;
+	border: 1px solid blue;
+}

@@ -1,0 +1,50 @@
+body
+{
+	font: 14px/21px Microsoft YaHei,Tahoma,Arial;
+	-webkit-text-size-adjust:none;   /*防止google调整字体大小*/
+	cursor: default;
+	color: #444444;
+	background-color: #E5E6E8;
+}
+#all
+{
+	width: 1349px;
+	height: auto;
+	border-top: 3px solid #999;
+}
+.posts
+{
+	position: relative;
+}
+#postscontent
+{
+	margin-top: 20px;
+	border: 1px solid blue;
+	height: auto;
+	border: 1px solid #9D9DA0;
+	border-radius: 10px;
+}
+#titlediv
+{
+	margin-top: 15px;
+	margin-left: 200px;
+}
+#editorcontent
+{
+	margin: 20px;
+}
+#editorselect
+{
+	position: relative;
+	padding-top: 20px;
+}
+#postsfooter
+{
+	width: 1349px;
+	border-top: 1px solid #ccc; 
+	text-align: center;
+	line-height: 50px;
+	height: 50px;
+	position: relative;
+	top: 20px;
+}

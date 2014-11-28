@@ -1,0 +1,35 @@
+.recommand
+{
+	margin-top: 20px;
+	background-color: #FFFFFF;
+	height: auto;
+	border-radius: 10px;
+}
+#related h4,#rand h4
+{
+	border-bottom: 1px solid #CBCBCB;
+	padding-left: 10px;
+	padding-bottom: 10px; 
+}
+#related ul,#rand ul
+{
+	list-style: none;
+}
+#related ul li,#rand ul li
+{
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	padding-left: 10px;
+	border-bottom: 1px dashed #CBCBCB;
+}
+#related a,#rand a
+{
+	color: #444444;
+}
+#related a:hover,#rand a:hover
+{
+	color: #FF5F00;
+}

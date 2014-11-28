@@ -1,0 +1,98 @@
+.categorys,.date,.tag,.searchs
+{
+	position: relative;
+}
+#content
+{
+	margin-top: 20px;
+}
+#main
+{
+	margin-left: 0px;
+	height: auto;
+}
+#sidebar
+{
+	height: auto;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.article-list-item
+{
+	height: 230px;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+	border: 1px solid #9D9DA0;
+	border-radius: 10px;
+}
+.article-info
+{
+	margin: 20px;
+}
+.article-summary
+{
+	height: 100px;
+	text-indent: 25px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.article-meta
+{
+	margin-top: 10px;
+	height: 30px;
+	float: right;
+}
+.other-sidebar
+{
+	margin-top: 10px;
+	height: auto;
+	border: 1px solid #9D9DA0;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}
+.category,.hots,.links,.tags
+{
+	border: 1px solid transparent;
+}
+.category h4,.hots h4,.links h4,.tags h4
+{
+	border-bottom: 1px solid #CBCBCB;
+	padding-left: 10px;
+	padding-bottom: 10px; 
+}
+.category ul,.hots ul,.links ul,.tags ul
+{
+	list-style: none;
+}
+.category ul li
+{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	padding-left: 10px;
+	border-bottom: 1px dashed #CBCBCB;
+}
+.category a,.hots a,.links a
+{
+	color: #444444;
+}
+.category a:hover,.hots a:hover,.links a:hover
+{
+	color: #FF5F00;
+}
+.hots ul li
+{
+	height: auto;
+	line-height: 30px;
+	font-size: 14px;
+	padding-left: 10px;
+	border-bottom: 1px dashed #CBCBCB;
+}
+.links ul li,.tags ul li
+{
+	height: 20px;
+	width: 90px;
+	line-height: 20px;
+	margin-top: 5px;
+	display: inline-block;
+}
